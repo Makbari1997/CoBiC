@@ -1,0 +1,19 @@
+{
+    "dataset": "atis",
+    "max_seq_length": "max",
+    "pad_token": "PAD",
+    "batch_size": 32,
+    "train_mode": "joint",
+    "evaluate": true,
+    "model_path": "models/atis_joint.h5",
+    "epochs": 10,
+    "embedding_path": "enwiki_20180420_300d.txt",
+    "embedding_dim": 300,
+    "cnn_activation": "relu",
+    "cnn_padding": "same",
+    "cnn_filters": 50,
+    "cnn_window_length": 4,
+    "lstm_layers": 2,
+    "lstm_units":200,
+    "learning_rate": 0.002
+}
